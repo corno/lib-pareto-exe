@@ -23,3 +23,17 @@ export type CreateUnexpectedStdInHandler = (
         onError: ($: string) => void
     }
 ) => IStreamConsumer<string, null>
+
+
+export type Writer = {
+    write: (str: string) => void
+}
+
+export type Log = (str: string) => void
+
+export type CreateLogger = (
+    $:{
+        writer: Writer,
+        newline: string
+    }
+) => Log
