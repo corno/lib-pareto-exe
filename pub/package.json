@@ -22,7 +22,7 @@
     "pareto-core-state": "^0.3.0"
   },
   "scripts": {},
-  "version": "0.1.1",
+  "version": "0.2.0",
   "interface-fingerprint": "af567fb3232508a96a243bd00fa37ae29a4b6e1e",
   "content-fingerprint": "e3369680275a4994921e4ad25d10c909d9594018"
 }
