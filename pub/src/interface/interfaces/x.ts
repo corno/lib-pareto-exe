@@ -4,7 +4,7 @@ export type IStreamConsumer<TData, TEnd> = {
     readonly  onEnd: ($: TEnd) => void
 }
 
-export type IWriter = {
+export type IWriter = { //
     readonly  write: ($: string) => void
 }
 
