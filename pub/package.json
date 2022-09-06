@@ -18,11 +18,11 @@
     "url": "git+https://github.com/corno/lib-pareto-exe.git"
   },
   "dependencies": {
-    "pareto-core-lib": "^0.8.0",
-    "pareto-core-state": "^0.6.0"
+    "pareto-core-lib": "^0.12.0",
+    "pareto-core-state": "^0.8.0"
   },
   "scripts": {},
   "version": "0.3.0",
   "interface-fingerprint": "b8490c1d22631fd815ea5bd9bee073f7b101ae3c",
-  "content-fingerprint": "fb9653713ddcfcffa58a60787b6999a4b8392e6e"
+  "content-fingerprint": "5a79ac301803bdc19394fbda78c4ee05f6d174a6"
 }
