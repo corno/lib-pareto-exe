@@ -6,12 +6,12 @@ import * as pl from "pareto-core-lib"
 
 import * as test from "lib-pareto-test"
 
-import * as pub from "../../../pub"
+import * as api from "../../interface"
 
-export function createGetTestSet(
-    $d: {
-    }
-): test.GetTestSet {
+import * as pub from "../../../../pub"
+
+export const createGetTestset: api.FCreateGetTestset = ($d) => {
+
     const deps = $d
     return ($, $d) => {
 

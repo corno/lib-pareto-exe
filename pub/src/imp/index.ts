@@ -1,6 +1,6 @@
 
-export * from "./expect1Argument"
+export * from "./public/getSingleArgument"
 
-export * from "./createUnexpectedStdInHandler"
+export * from "./public/createUnexpectedStdInHandler"
 
-export * from "./createLogger"
+export * from "./public/createLogger"

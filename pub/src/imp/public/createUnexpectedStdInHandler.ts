@@ -1,6 +1,6 @@
-import * as api from "../interface"
+import * as api from "../../interface"
 
-export const createUnexpectedStdInHandler: api.CreateUnexpectedStdInHandler = ($i) => {
+export const createUnexpectedStdInHandler: api.FCreateUnexpectedStdInHandler = ($i) => {
     let reported = false
     return {
         onData: () => {
