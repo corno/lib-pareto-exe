@@ -4,13 +4,7 @@ import * as pt from "pareto-core-types"
 
 
 
-export const p_getSingleArgument: api.PGetSingleArgument = (
-    $: pt.Array<string>,
-    $i: {
-        callback: ($: string) => void
-        error: ($: api.TArgumentError) => void
-    }
-) =>{
+export const p_getSingleArgument: api.PGetSingleArgument = ($, $i,) =>{
     const stack = pm.createStack($)
 
     stack.pop(

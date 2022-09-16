@@ -1,6 +1,6 @@
 import * as pt from "pareto-core-types"
-import { ILog, IStreamConsumer, IWriter } from "../interfaces/x"
-import { TArgumentError } from "../types/x"
+import { ILog, IStreamConsumer, IWriter } from "../interfaces/interfaces.p"
+import { TArgumentError } from "../types/types.p"
 
 export type PGetSingleArgument = (
 
@@ -19,7 +19,7 @@ export type FCreateUnexpectedStdInHandler = (
 
 export type FCreateLogger = (
     $: {
-        readonly "writer": IWriter,
         readonly "newline": string
-    }
+    },
+    $i: IWriter,
 ) => ILog

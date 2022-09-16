@@ -1,6 +1,6 @@
 
-export * from "./public/f_getSingleArgument"
+export * from "./public/getSingleArgument.p"
 
-export * from "./public/f_createUnexpectedStdInHandler"
+export * from "./public/createUnexpectedStdInHandler.p"
 
-export * from "./public/f_createLogger"
+export * from "./public/createLogger.p"

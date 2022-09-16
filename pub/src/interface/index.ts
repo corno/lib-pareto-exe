@@ -1,3 +1,3 @@
-export * from "./algorithms/functions"
-export * from "./interfaces/x"
-export * from "./types/x"
+export * from "./functions/functions.p"
+export * from "./interfaces/interfaces.p"
+export * from "./types/types.p"
