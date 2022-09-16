@@ -4,7 +4,7 @@ import * as pt from "pareto-core-types"
 
 
 
-export const getSingleArgument: api.PGetSingleArgument = (
+export const p_getSingleArgument: api.PGetSingleArgument = (
     $: pt.Array<string>,
     $i: {
         callback: ($: string) => void
@@ -17,7 +17,7 @@ export const getSingleArgument: api.PGetSingleArgument = (
         ($) => {
             stack.pop(
                 () => {
-                    $i.error(["too many arguments found", {}])
+                    $i.error(["too many arguments found", null])
                 },
                 () => {
                     $i.callback($)
@@ -25,7 +25,7 @@ export const getSingleArgument: api.PGetSingleArgument = (
             )
         },
         () => {
-            $i.error(["no arguments found", {}])
+            $i.error(["no arguments found", null])
         }
     )
 }

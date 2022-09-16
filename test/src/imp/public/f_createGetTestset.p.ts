@@ -10,13 +10,13 @@ import * as api from "../../interface"
 
 import * as pub from "../../../../pub"
 
-export const createGetTestset: api.FCreateGetTestset = ($d) => {
+export const f_createGetTestset: api.FCreateGetTestset = ($d) => {
 
     const deps = $d
     return ($, $d) => {
 
         const builder = pm.createDictionaryBuilder<test.TTestElement>(
-            ["ignore", {}],
+            ["ignore", null],
             () => {
                 pl.panic("duplicate key")
             }
